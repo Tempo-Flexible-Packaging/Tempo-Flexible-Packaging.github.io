@@ -1,15 +1,16 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 30px 270px; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
     height: 100vh;
-    background: linear-gradient(to bottom right, #f0f0f0, #001f3f); /* Gradient from white to navy blue */
+    background: url(images/tempoBG.jpg); 
+    background-size: cover; 
 }
-
 h1 {
-    margin: 10px;
+    margin: 10px 10px 0 10px;
     color: #001f3f; /* Navy blue text color for the heading */
     text-shadow: 2px 2px 4px pink; /* Pink highlight using text-shadow */
 }
@@ -18,10 +19,52 @@ h1 {
     margin: 10px;
 }
 
+.button-55 {
+    width: 120px;
+    height: 120px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 60px); /* Adjust the size as needed for 4 buttons in a row */
-    grid-gap: 10px; /* Adjust the gap between buttons as needed */
+    grid-template-columns: repeat(4, 120px); /* Adjust the size as needed for 4 buttons in a row */
+    grid-gap: 20px; /* Adjust the gap between buttons as needed */
 }
 
 .grid-item {

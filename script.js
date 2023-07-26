@@ -1,3 +1,51 @@
+// document.addEventListener('DOMContentLoaded', function () {
+//   const apiUrl = 'http://10.0.0.144/api/v0/process_state/reason';
+//   const buttons = [
+//     'lunch', 'Breakdown'
+//   ];
+//   // , 'No_machine_operator', 'No_set_up_operator', 'Quality_out_of_spec'
+
+//   buttons.forEach(buttonValue => {
+//     const button = document.getElementById(buttonValue + 'Button');
+//     button.addEventListener('click', () => postReasonToAPI(apiUrl, { value: buttonValue }));
+//   });
+
+//   function postReasonToAPI(apiUrl, data) {
+//     fetch(apiUrl, {
+//       mode: 'cors',
+//       method: 'POST',
+//       body: JSON.stringify(data)
+//     })
+//       .then(response => {
+//         if (!response.ok) {
+//           throw new Error('Check the passed value name. Fix it in Vorne, it is complicated for the system.');
+//         }
+//         return response.json();
+//       })
+//       .then(data => {
+//         console.log(data);
+//         alert('Reason Added');
+//       })
+//       .catch(error => {
+//         console.error('Error:', error);
+//       });
+//   }
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -52,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const apiUrl = 'http://10.0.0.144/api/v0/process_state/reason';
     const data = 
     {
-      value: 'Quality_out_of_spec'
+      value: 'Knife_change'
     }
     return postReasonToAPI(apiUrl, data);
   }
