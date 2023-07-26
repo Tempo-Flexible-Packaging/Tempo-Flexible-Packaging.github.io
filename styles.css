@@ -1,16 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(to bottom right, #f0f0f0, #001f3f); /* Gradient from white to navy blue */
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+h1 {
+    margin: 10px;
+    color: #001f3f; /* Navy blue text color for the heading */
+    text-shadow: 2px 2px 4px pink; /* Pink highlight using text-shadow */
 }
+
+.container {
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 60px); /* Adjust the size as needed for 4 buttons in a row */
+    grid-gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #2980b9; /* Add a border to make it look like a button *
+    border-radius: 8px; /* Increase the border-radius for rounded corners */
+    font-size: 18px; /* Increase font size for better visibility */
+    cursor: pointer;
+} 
