@@ -19,7 +19,7 @@ MEETING:
 Shift Handover = Shift Handover
 
 NO PRODUCTION:
-Not scheduled =Not Scheduled
+Not scheduled =Not Scheduled 
 Optional Shift Scheduled = Optional Shift Scheduled
 Shift Ended Early = Shift Ended Early
 
