@@ -9,7 +9,7 @@
 1.4 : some of the reason codes in the system were either renamed or were not according to the valid format. I had to delete all production data from GENESES (10.0.0.144) and then delete all reason codes. I recreated all the reason codes as per valid passable format, check the list below, names on the left were set by the manager and names on right are creadted as per the required format.
 
 DOWN:
-Breakdown = Breakdown
+Breakdown = Breakdown 
 No machine operator = No Machine Operator
 No set up operator = No Setup Operator
 Quality -out of spec = Quality Out of Spec
