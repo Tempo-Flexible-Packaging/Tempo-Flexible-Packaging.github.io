@@ -15,7 +15,7 @@ h1 {
     text-shadow: 2px 2px 4px pink;
 }
 .container { 
-    margin: 100px;  /*space between Tempo_INSIGHTS and Down Reasons: */
+    margin: 50px;  /*space between Tempo_INSIGHTS and Down Reasons: */
 }
 
 .button-55 {
@@ -62,7 +62,7 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
+    grid-template-columns: repeat(6, 120px);
     grid-gap: 20px;
 }
 

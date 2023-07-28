@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 30px 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    height: 100vh;
+    /* Remove background image */
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 10px 10px 0 10px;
+    color: #001f3f; 
+    text-shadow: 2px 2px 4px pink;
+}
+
+.container { 
+    margin: 50px;
+}
+
+.button-55 {
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    /* Add border styles */
+    border: 2px solid #001f3f;
+    border-radius: 15px;
+    /* Remove background color */
+    background-color: whitesmoke;
+    /* Remove box shadow */
+    box-shadow: none;
+    /* Adjust padding for better button appearance */
+    padding: 10px;
+    /* Remove text decoration */
+    text-decoration: none;
+    /* Add cursor style */
+    cursor: pointer;
+    /* Adjust font size */
+    font-size: 16px;
+    /* Remove user-select styles */
+    user-select: auto;
+    -webkit-user-select: auto;
+    touch-action: auto;
+}
+
+/* Remove hover and focus styles for simplicity */
+.button-55:hover,
+.button-55:focus {
+    box-shadow:#001f3f;
+    transform: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-gap: 20px;
+}
