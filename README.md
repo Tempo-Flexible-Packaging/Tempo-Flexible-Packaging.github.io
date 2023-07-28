@@ -6,7 +6,7 @@
 1.3 : We figured ou that the validation schema for the reason codes to be readable by the Vorne API is that it should be alphabets and spaces only, 24 places including the spaces. The CSS is updated as per Tempo theme and the fancy CSS buttons are added. This is how it looks right now: <img width="1134" alt="image" src="https://github.com/Tempo-Flexible-Packaging/INSIGHTS-Change-Reason-WebApp/assets/140524949/b5f3fddf-9187-44e9-a012-31531de35e66">
 
 
-1.4 : some of the reason codes in the system were either renamed or were not according to the valid format. I had to delete all production data from GENESES (10.0.0.144) and then delete all reason codes. I recreated all the reason codes as per valid passable format, check the list below, names on the left were set by the manager and names on right are creadted as per the required format.
+1.4 : some of the reason codes in the system were either renamed or were not according to the valid format. I had to delete all production data from GENESES (10.0.0.144) and then delete all reason codes. Recreated all the reason codes as per valid passable format, check the list below, names on the left were set by the manager and names on right are creadted as per the required format.
 
 DOWN: 
 Breakdown = Breakdown, 
