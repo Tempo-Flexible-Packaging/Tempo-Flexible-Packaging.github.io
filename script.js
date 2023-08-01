@@ -1,5 +1,10 @@
+//import { machines } from './home.js';
+// const { machines } = require('./home.js');
 document.addEventListener('DOMContentLoaded', function () {
-  const apiUrl = 'http://10.0.0.144/api/v0/process_state/reason';
+  // const apiUrl = 'http://10.0.0.70/api/v0/process_state/reason';
+  const apiUrl = decodeURIComponent(window.location.search.split('=')[1]);
+  console.log(apiUrl);
+
   const buttons = [
     'Lunch', 'Breakdown', 'No_Machine_Operator', 'No_Setup_Operator',
      'Quality_Out_of_Spec', 'Wrap_around_Jam_up', 'Meeting', 
@@ -13,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', () => postReasonToAPI(apiUrl, { value: buttonValue }));
   });
 
-  function postReasonToAPI(apiUrl, data) {
+  function postReasonToAPI(apiUrl , data) {
     fetch(apiUrl, {
       mode: 'cors',
       method: 'POST',
