@@ -35,3 +35,6 @@ Planned maintenance = Planned Maintenance,
 Turn/ change teflon = Turn Change Teflon
 
 
+1.5 : Run Simple Themed.html if you want to see a plain and simple application. Run Tempo Themed.html if you want to see Tempo themed application. 
+
+
