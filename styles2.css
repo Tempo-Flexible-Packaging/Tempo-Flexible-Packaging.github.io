@@ -23,6 +23,7 @@ h1 {
 .button-55 {
     width: 120px;
     height: 120px;
+    font-size: 24PX;
     align-self: center;
     /* Add border styles */
     border: 2px solid #001f3f;

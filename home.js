@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function redirectToIndexPageWithAPI(apiUrl) {
-  const indexPageUrl = 'TempoThemed.html';
+  const indexPageUrl = 'SimpleThemed.html';
   window.location.href = `${indexPageUrl}?apiUrl=${encodeURIComponent(apiUrl)}`;
 }
