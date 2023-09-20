@@ -37,4 +37,8 @@ Turn/ change teflon = Turn Change Teflon
 
 1.5 : Run Simple Themed.html if you want to see a plain and simple application. Run Tempo Themed.html if you want to see Tempo themed application. 
 
+1.7 : This update have a home screen first, which gives option to choose from all Vorne in in all departments and then redirects to the reason code page where we can post a reason in the api by clicking the button.
+
+1.8 : The webApp is hosted live online on URL : tempo-flexible-packaging.github.io , all version updates and changes will be immediately applied to this website.
+
 

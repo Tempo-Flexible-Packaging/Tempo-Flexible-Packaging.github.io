@@ -1,7 +1,9 @@
 //import { machines } from './home.js';
 // const { machines } = require('./home.js');
+// const apiUrl = 'http://10.0.0.70/api/v0/process_state/reason';
+
 document.addEventListener('DOMContentLoaded', function () {
-  // const apiUrl = 'http://10.0.0.70/api/v0/process_state/reason';
+  
   const apiUrl = decodeURIComponent(window.location.search.split('=')[1]);
   console.log(apiUrl);
 
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
       .then(response => {
         if (!response.ok) {
-          throw new Error('Check the passed value name. Fix it in Vorne, it is complicated for the system.');
+          throw new Error('Check the passed value name for complexity OR check the API URL fior that particular code using postman.');
         }
         return response.json();
       })
